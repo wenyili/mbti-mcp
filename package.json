@@ -1,0 +1,48 @@
+{
+  "name": "mbti-mcp",
+  "version": "1.0.0",
+  "description": "MCP server for MBTI personality testing with AI assistance",
+  "type": "module",
+  "main": "dist/index.js",
+  "bin": {
+    "mbti-mcp": "dist/index.js"
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc --watch",
+    "prepare": "npm run build"
+  },
+  "keywords": [
+    "mcp",
+    "mbti",
+    "personality-test",
+    "ai",
+    "model-context-protocol",
+    "personality-assessment"
+  ],
+  "author": "",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wenyili/mbti-mcp.git"
+  },
+  "homepage": "https://github.com/wenyili/mbti-mcp#readme",
+  "bugs": {
+    "url": "https://github.com/wenyili/mbti-mcp/issues"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.4"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.2",
+    "typescript": "^5.7.2"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}

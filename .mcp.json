@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "mbti": {
+      "command": "node",
+      "args": ["/Users/cocos/Projects/mbti/dist/index.js"]
+    }
+  }
+}
